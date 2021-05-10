@@ -1,0 +1,62 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: lightslategrey;
+    background-image: url(assets/background-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin-top: 0;
+}
+
+nav{
+    background-color: rgba(0,0,0, 0.338);
+    color: white;
+    width: 100%;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+}
+
+main {
+    padding: 5% 20% 5% 20%;
+    color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+}
+p {
+    font-size: large;
+    color: white;
+}
+main a {
+    color: white;
+}
+
+div section:not(:last-child){
+    padding-bottom: 10% ;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-size: smaller;
+    margin-top: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
